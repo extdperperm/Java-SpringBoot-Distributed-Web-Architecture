@@ -12,4 +12,6 @@ Descripción: Proyecto ApiRest en Spring Boot 3.5 que implementa autenticación 
 Descripción: Proyecto WebApp en Spring Boot 3.5 que implementa el módulo de seguridad Spring 
              Security y se nutre del negocio que consume la APIRestFul.
 
+Usuario de pruebas: daniel
+Password de pruebas: 1234
 Vídeo de instrucciones de ejecución y depuración: https://youtu.be/XH70oMXZ9Hk
