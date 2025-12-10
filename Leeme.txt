@@ -1,0 +1,15 @@
+##############################################################################################
+#                                     APIRestFul                                             #
+##############################################################################################
+
+Descripción: Proyecto ApiRest en Spring Boot 3.5 que implementa autenticación basada en token
+             JWT apoyándose en el módulo de seguridad para configuración de filtros de acceso.
+
+##############################################################################################
+#                                     WebApp                                                 #
+##############################################################################################
+
+Descripción: Proyecto WebApp en Spring Boot 3.5 que implementa el módulo de seguridad Spring 
+             Security y se nutre del negocio que consume la APIRestFul.
+
+Vídeo de instrucciones de ejecución y depuración: https://youtu.be/XH70oMXZ9Hk

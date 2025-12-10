@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <link rel="stylesheet" th:href="@{/css/index.css}">
+</head>
+<body>
+
+	<!--Para probar una petición a la ApiRest bajo autenticación con token JWT.-->
+    <div><a th:href="@{/testApi}">Test ApiRest</a></div>
+    
+
+	<!--Fuerza el logout-->
+    <form th:action="@{/logout}" method="POST" id="logoutForm">
+		<a href="#" onclick="document.getElementById('logoutForm').submit();">Cerrar</a>
+	</form>
+	
+
+</body>
+</html>

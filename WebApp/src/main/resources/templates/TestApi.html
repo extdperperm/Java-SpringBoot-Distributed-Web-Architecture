@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <link rel="stylesheet" th:href="@{/css/index.css}">
+</head>
+<body>
+	
+	<div><p><b>RESULTADO DE LA PETICIÓN A LA API BAJO AUTENTICACIÓN: <span>OK</span></b></p></div>
+	<br>
+	<br>
+	<div><p>DATOS REPORTADOS:</p></div>
+	<br>
+    <div th:each="item : ${listaModulos}"><p th:text="${item.codigo} + ' - ' + ${item.descripcion}">Modulo 1</p></div>
+	<br>
+	<br>
+    <div><a th:href="@{/index}">Volver</a></div>
+	
+</body>
+</html>
